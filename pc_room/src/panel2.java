@@ -38,6 +38,7 @@ public class panel2 extends JFrame{
 		timecheck.setFont(new Font("궁서",Font.PLAIN,27));
 		timecheck.setText("\n       "+(++i)+"분\n");
 		timecheck.append("       "+i*20+"원");
+		timecheck.append("      "+(i*10)+"원(유료게임)");
 		javax.swing.Timer t = new javax.swing.Timer(1000, new ActionListener() {
 	          public void actionPerformed(ActionEvent e) {
 	        	   
