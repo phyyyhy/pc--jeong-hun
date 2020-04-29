@@ -33,8 +33,8 @@ public class panel2 extends JFrame{
         String start = (new SimpleDateFormat("yyyy년MM월dd일HH시mm분").format(date));
 		getContentPane();
 		setLayout(new BorderLayout());
-		timecheck.setEditable(false);
-		
+		timecheck.setEditable(false);//수정불가
+	
 		timecheck.setFont(new Font("궁서",Font.PLAIN,27));
 		timecheck.setText("\n       "+(++i)+"분\n");
 		timecheck.append("       "+i*20+"원");
