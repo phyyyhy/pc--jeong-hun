@@ -60,6 +60,7 @@ public class panel2 extends JFrame{
 		end.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
             	addprice(i*20);
+             	addprice(i*10);
             	
             	callprice(ID,start);
             	
