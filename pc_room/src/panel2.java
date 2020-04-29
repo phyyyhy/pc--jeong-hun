@@ -44,6 +44,7 @@ public class panel2 extends JFrame{
 	        	   
 	              timecheck.setText("\n       "+(++i)+"분\n");
 	              timecheck.append("       "+i*20+"원");
+	              timecheck.append("       "+i*10+"원(유료게임)");
 	          }
 	       });
 		JButton food = new JButton("음식주문" );
